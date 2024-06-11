@@ -1,0 +1,31 @@
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-30deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .icon-rotate {
+    animation: rotate 1s infinite;
+  }
+  
+  .icon-zoom {
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-zoom:hover {
+    transform: scale(1.02); /* หรือค่าที่คุณต้องการให้ซูมเข้า */
+  }
+  
+  
